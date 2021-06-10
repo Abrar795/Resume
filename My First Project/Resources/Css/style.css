@@ -1,0 +1,235 @@
+/*----------------------------------*/
+/*----------BASIC SETUP-------------*/
+/*----------------------------------*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    background-color: #f1f1f1;
+    color: #555;
+    font-family: 'sanserif','lato';
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+.row {
+    max-width: 1917px;
+    margin: 0 auto;
+}
+/*----------MAIN NAV----------*/
+/*----------------------------*/
+/*----------------------------*/ 
+.main-nav {
+    float: right; 
+    list-style: none; 
+    margin-top: 50px;
+    margin-right: 180px;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited
+{
+    padding: 8px, 0;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+   border-bottom: 2px solid transparent;
+   transition: border-bottom 0.2s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active
+{
+   border-bottom: 2px solid #d4d0d0 ;
+}
+
+
+/*----header part-------*/
+/*----------------------*/
+/*----------------------*/
+
+
+header {
+    background-color: cadetblue;
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+}
+h1,h2,h3 {
+    word-spacing: 4px;
+    letter-spacing: 1px;
+    text-align:center;
+
+
+}
+h1 {
+    font-size: 140%;
+    margin-bottom: 10px;
+    margin-top: 380px;
+    margin-left: 885px;
+    margin-right: 885px;
+    color: #ffffff;
+}    
+h2 {
+    font-size: 240%;
+    margin-right: 665px ;
+    margin-left: 665px ;
+    color: #ffffff;
+    border-bottom: 0.2px solid  #ffffffa8 ;
+    padding-bottom: 10px;
+}
+h3 {
+    font-size: 220%;
+    font-weight: 500;
+    color: cadetblue;
+    margin-top: 90px;
+    margin-bottom: 30px;
+    margin-left: 882px;
+    margin-right: 882px;
+}
+h4 {
+    font-size: 140%;
+    font-weight: 500;
+    margin-bottom: 20px;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+    color: cadetblue;
+}
+.head4 {
+    font-size: 140%;
+    font-weight: 500;
+    margin-bottom: 20px;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+    margin-left: 540px;
+    margin-right: 540px;
+    color: cadetblue;
+}
+h5 {
+    font-size: 120%;
+    font-weight: 600;
+    margin-bottom: 20px;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+    
+}
+h6 {
+    font-size: 100%;
+    font-weight: 600;
+    margin-bottom: 20px;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+}
+
+/*---------profile-1st-paragraph------*/
+/*------------------------------------*/
+/*------------------------------------*/
+.para {
+    font-size: 120%;
+    border-bottom: 1px solid cadetblue;
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 45px;
+    margin-bottom: 20px;
+}
+/*---------section-profile------------*/
+/*------------------------------------*/
+/*------------------------------------*/
+
+.profile-pic {
+    height: 300px;
+    text-align: right;
+}
+.profile-pic img {
+    height: 250px;
+    border-radius: 50%;
+}
+.details {
+    list-style: none;
+}
+.after-para {
+    margin-left: 200px;
+}
+/*--------- section-experiences --------*/
+/*------------------------------------*/
+/*------------------------------------*/
+.experiences {
+    background-color:#d4d0d0 ;
+}
+
+.after-parag {
+    margin-left: 540px;
+}
+.after-parag p  {
+    font-weight: 300;
+    font-size:90% ;
+}
+/*--------- section-abilities --------*/
+/*------------------------------------*/
+/*------------------------------------*/
+
+.space {
+    margin-left: 150px;
+}
+.list li {
+    list-style: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 100%;
+}
+.border {
+    border-bottom: 1px solid cadetblue;
+    width: 60%;
+    margin: 20px auto
+}
+
+/*--------- section-Projects --------*/
+/*------------------------------------*/
+/*------------------------------------*/
+.projects {
+    background-color: #d4d0d0;
+}
+.after-parag img{
+    width: 100%;
+    height: 330px;
+}
+
+
+/*--------- section-footer --------*/
+/*------------------------------------*/
+/*------------------------------------*/
+footer {
+    background-color: #333;
+    color: white;
+    height: 75vh;
+}
+footer a {
+    text-decoration:none;
+    color: #d4d0d0;
+    font-size: 80%;
+}
+footer a :hover,
+footer  a :active{
+    color: white;
+    font-size: 120%;
+}
+
+.footer-icons {
+    margin-left: 540px;
+}
+.border-footer {
+    border-bottom: 1px solid cadetblue;
+    width: 60%;
+    margin: 60px auto;
+    text-align: center;
+}
+
